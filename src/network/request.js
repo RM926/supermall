@@ -17,6 +17,6 @@ export function request(config){
   // },err =>{
   //   console.log(err);
   // })
-  //3.发送真正的网络请求，返回的一个Promise,即instance（config）= Promise
+  //3.发送真正的网络请求，返回的一个Promise,即instance（config）= new Promise
   return instance(config)
 }

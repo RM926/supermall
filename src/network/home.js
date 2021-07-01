@@ -1,7 +1,7 @@
 import {request} from './request'
 
 export function getHomeMultidata(){
-  return request({
+   return request({
     url:'/home/multidata'
   })
 }

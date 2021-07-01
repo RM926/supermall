@@ -25,3 +25,10 @@ new Vue({
   router,
   store,
 }).$mount('#app')
+import axios from 'axios'
+// axios.get('http://api.vikingship.xyz/api/columns').then(res => {
+//   console.log(res)
+// })
+axios.get('http://apis.imooc.com/api/columns?icode=C6A6C4086133360B').then(res => {
+  console.log(res)
+})
